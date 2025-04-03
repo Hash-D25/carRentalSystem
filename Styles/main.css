@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heroImage{
+    grid-area:heroImage;
+}
+.heroText{
+    grid-area:heroText;
+    margin-top:9rem;
+    text-align: center;
+}
+.bookNow{
+    grid-area: bookNow;
+    width: 8rem;
+    height: 3rem;
+}
+.textandbtn{
+    grid-area: textbtn;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+.mainContainer{
+    display: grid;
+    width: 100vw;
+    height: auto;
+    grid-template-areas: "heroImage textbtn";
+    padding: 2rem;
+}
