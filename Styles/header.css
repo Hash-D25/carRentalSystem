@@ -1,11 +1,27 @@
 .navbar {
     display: flex;
-    justify-content: space-evenly;
+    position:relative;
+    justify-content: space-between;
     align-items:center;
     background-color:rgb(43, 40, 40);
     padding:25px;
     color:white;
 }
-.
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sign-in-btn
+{
+    height:2rem;
+    width:4rem;
+}
+.navlinks{
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+}
+
 
 
